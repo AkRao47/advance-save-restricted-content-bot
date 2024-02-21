@@ -1,1 +1,1 @@
-dev_gagan: python -m main
+web: python -m main
