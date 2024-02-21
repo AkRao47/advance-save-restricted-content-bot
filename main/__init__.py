@@ -15,13 +15,12 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
-
+API_ID = "24192661"
+API_HASH = "810a6dc0b2c2bf4db55db3a9ad999b56"
+BOT_TOKEN = "6259718751:AAEjFAu83hn_tDDZS8-8kG5nMgDzR1vhviA"
+SESSION = "BQFxJpUAkficUxLy-GcvkHAteqCiJryHJJuST7y1T2jGLAWfDQ91SVRv6Ri7Hunzevfa5SS4GZu787HPtyad4ElDb82gdbveRovUk85mmOM1w0JmaYTsaWmPosXzuQDCsUohMrsZ27V_JJ3keidVaZEAd76SHYUgNEPobN2_amGo9unFyNO7y_YvFOpYE63m5WKNM_ALs_sviFxSlMWh2iuHb4EWdVcZNI_rBkuOXyU6yKYJRXIiAinrB1kwbALi2_otDe2NwRx2z3XHizlIQ9qYMD47LS9VD4N8kn-EMQmxW_URyYa3XNISDKGYJu-YKO6bwAMDp5K3mqcjbPUQL4yjx0xMWQAAAAFDgwaAAA"
+FORCESUB = "raoji47"
+AUTH = "5427627648"
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
 #userbot = Client(
