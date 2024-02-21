@@ -5,7 +5,7 @@ import time, os, asyncio
 import json
 
 from .. import bot as gagan
-from .. import userbot, Bot, AUTH, SUDO_USERS
+from .. import userbot, Bot, AUTH
 
 from main.plugins.pyroplug import check, get_bulk_msg
 from main.plugins.helpers import get_link, screenshot
